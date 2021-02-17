@@ -18,7 +18,7 @@ namespace SuperheroCreator.Controllers
         public IActionResult Index()
         {
             var superheroes = _context.Superheroes;
-            return View(superheroes);
+            return View("List", superheroes);
         }
 
         //HttpGet
