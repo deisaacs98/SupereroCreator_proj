@@ -22,7 +22,6 @@ namespace SuperheroCreator.Controllers
         }
 
         //HttpGet
-
         public IActionResult Create()
         {
             return View();
@@ -36,5 +35,53 @@ namespace SuperheroCreator.Controllers
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        //HttpGet
+        public IActionResult Delete(int id)
+        {
+            Superhero superhero=_context.Superheroes.Find(id);
+            return View(superhero);
+        }
+
+        //HttpPost
+        [HttpPost]
+        public IActionResult Delete(Superhero superhero)
+        {
+            _context.Superheroes.Remove(superhero);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        //HttpGet
+        public IActionResult Edit(int id)
+        {
+            Superhero superhero = _context.Superheroes.Find(id);
+            return View(superhero);
+        }
+
+        //HttpPost
+        [HttpPost]
+        public IActionResult Edit(Superhero superhero)
+        {
+            _context.Superheroes.Update(superhero);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        //HttpGet
+        public IActionResult Details(int id)
+        {
+            Superhero superhero = _context.Superheroes.Find(id);
+            return View(superhero);
+        }
+
+        //HttpPost
+        [HttpPost]
+        public IActionResult Details(Superhero superhero)
+        {
+            return RedirectToAction("Index");
+        }
+
+
     }
 }

@@ -166,4 +166,4 @@ D:\Isaac\DevCodeCamp\SuperheroCreator\SuperheroCreator\obj\Debug\netcoreapp3.1\R
 D:\Isaac\DevCodeCamp\SuperheroCreator\SuperheroCreator\obj\Debug\netcoreapp3.1\Razor\Views\Superhero\Delete.cshtml.g.cs
 D:\Isaac\DevCodeCamp\SuperheroCreator\SuperheroCreator\obj\Debug\netcoreapp3.1\Razor\Views\Superhero\Edit.cshtml.g.cs
 D:\Isaac\DevCodeCamp\SuperheroCreator\SuperheroCreator\obj\Debug\netcoreapp3.1\Razor\Views\Superhero\List.cshtml.g.cs
-D:\Isaac\DevCodeCamp\SuperheroCreator\SuperheroCreator\obj\Debug\netcoreapp3.1\Razor\Views\Superhero\Index.cshtml.g.cs
+D:\Isaac\DevCodeCamp\SuperheroCreator\SuperheroCreator\obj\Debug\netcoreapp3.1\Razor\Views\Superhero\Details.cshtml.g.cs
