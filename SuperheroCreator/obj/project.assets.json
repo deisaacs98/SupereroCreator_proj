@@ -8764,27 +8764,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Isaac\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\hobom\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Isaac\\DevCodeCamp\\SuperheroCreator\\SuperheroCreator\\SuperheroCreator.csproj",
+      "projectUniqueName": "C:\\Users\\hobom\\Documents\\Dan\\DevCodeCamp\\SuperheroCreator\\SuperheroCreator\\SuperheroCreator.csproj",
       "projectName": "SuperheroCreator",
-      "projectPath": "D:\\Isaac\\DevCodeCamp\\SuperheroCreator\\SuperheroCreator\\SuperheroCreator.csproj",
-      "packagesPath": "C:\\Users\\Isaac\\.nuget\\packages\\",
-      "outputPath": "D:\\Isaac\\DevCodeCamp\\SuperheroCreator\\SuperheroCreator\\obj\\",
+      "projectPath": "C:\\Users\\hobom\\Documents\\Dan\\DevCodeCamp\\SuperheroCreator\\SuperheroCreator\\SuperheroCreator.csproj",
+      "packagesPath": "C:\\Users\\hobom\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hobom\\Documents\\Dan\\DevCodeCamp\\SuperheroCreator\\SuperheroCreator\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Isaac\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\hobom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8852,7 +8845,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

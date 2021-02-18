@@ -82,6 +82,5 @@ namespace SuperheroCreator.Controllers
             return RedirectToAction("Index");
         }
 
-
     }
 }
