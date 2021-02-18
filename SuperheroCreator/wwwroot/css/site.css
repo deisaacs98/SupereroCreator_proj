@@ -2,14 +2,18 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+.navbar-light {
+    background-color: #f1ea00;
 }
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+    color: #0366d6;
 }
 
 .btn-primary {
@@ -24,10 +28,13 @@ a {
   border-color: #1861ac;
 }
 
+
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
   font-size: 14px;
+
 }
 @media (min-width: 768px) {
   html {
