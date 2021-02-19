@@ -4,9 +4,8 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Create a Superhero</h1>
 
-<h4>Superhero</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -41,6 +40,72 @@
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
+    </div>
+    <div class="col-md-4">
+        <h5>Check out the examples below for inspiration!</h5>
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Example 1: Batman
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Name:              Batman</li>
+                        <li class="list-group-item">Alter Ego:         Bruce Wayne</li>
+                        <li class="list-group-item">Primary Ability:   Gadgets</li>
+                        <li class="list-group-item">Secondary Ability: Violence</li>
+                        <li class="list-group-item">Catchphrase:       Where's Alfred?</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Example 2: Beast
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Name:              Beast</li>
+                            <li class="list-group-item">Alter Ego:         Henry McCoy</li>
+                            <li class="list-group-item">Primary Ability:   Brilliance</li>
+                            <li class="list-group-item">Secondary Ability: Fuzziness</li>
+                            <li class="list-group-item">Catchphrase:       Look at me! I'm the Beast!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Example 3: Chocolate-From-Every-Orifice-Man
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Name:              Chocolate-From-Every-Orifice-Man   </li>
+                            <li class="list-group-item">Alter Ego:         William Wonka  </li>
+                            <li class="list-group-item">Primary Ability:   Oozing chocolate from every orifice</li>
+                            <li class="list-group-item">Secondary Ability: Leaking chocolate from every hole </li>
+                            <li class="list-group-item">Catchphrase:       Glup glurp blrbl splugr</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
